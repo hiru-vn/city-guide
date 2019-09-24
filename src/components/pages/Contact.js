@@ -37,6 +37,10 @@ class Contact extends React.Component {
                                 <textarea cols="30" rows="3"
                                     placeholder="Message"
                                     className="form-control"></textarea>
+                                <Link className="btn btn-outline-primary text-uppercase mt-2">
+                                    <i className="fab fa-telegram-plane"></i>
+                                    &nbsp;Send
+                                </Link>
                             </form>
                         </div>
                     </div>
