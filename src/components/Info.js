@@ -21,7 +21,8 @@ class Info extends React.Component{
                                 <h3 className="card-title text-uppercase">{headerTitle}</h3>
                                 <h5 className="card-title">{headerSubTitle}</h5>
                                 <p className="card-text">{headerText}</p>
-                                <Link to="/detail" className="btn btn-outline-primary text-uppercase">
+                                <Link onClick={()=> value.handleDetail(id)} 
+                                to="/detail" className="btn btn-outline-primary text-uppercase">
                                 More Info
                                 </Link>
                             </div>
